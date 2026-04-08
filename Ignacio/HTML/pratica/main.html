@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitectura Visual FS</title>
+</head>
+<body>
+    <div class="general-conter">
+        <header class="header">
+            <div class="header-conter">
+                <h1 class="header-title">Arquitectura Cliente-Servidor y Desarrollo Full Stack</h1>
+                <p class="header-content">
+                    La Arquitectura Cliente-Servidor es un modelo fundamental en el desarrollo web donde las aplicaciones se dividen en dos partes: el cliente, que interactúa con el usuario, y el servidor, que procesa las solicitudes y gestiona los datos. En este contexto, el Desarrollo Full Stack abarca tanto la creación del frontend (lo que el usuario ve) como del backend (la lógica y el manejo de información), permitiendo construir aplicaciones completas, eficientes y escalables.
+                </p>
+            </div>
+            <div class="nav-conter">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="list-item"><a href="#cliente-servidor">Seccion ClienteServidor</a></li>
+                        <li class="list-item"><a href="#full-stack">Seccion FullStack</a></li>
+                        <li class="list-item"><a href="#tecnologias">Seccion Tecnólogias</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="cs-section" id="cliente-servidor">
+                <div class="cs-section-conter">
+                    <h2 class="cs-title">Arquitectura Cliente-Servidor</h2>
+                    <div class="cs-wrapper">
+                        <div class="cs-content-conter">
+                            <h3 class="cs-subtitle">Cliente</h3>
+                            <p class="cs-content">
+                                El cliente es el dispositivo o aplicación que utiliza el usuario para interactuar con la web, como un navegador o una app. Su función es enviar solicitudes al servidor y mostrar las respuestas de forma visual.
+                            </p>
+                        </div>
+                        <div class="cs-content-conter">
+                            <h3 class="cs-subtitle">Servidor</h3>
+                            <p class="cs-content">
+                                El servidor es el sistema que recibe las solicitudes del cliente, procesa la información y devuelve una respuesta. Se encarga de la lógica de la aplicación y del acceso a los datos.
+                            </p>
+                        </div>
+                        <div class="cs-content-conter">
+                            <h3 class="cs-subtitle">Solicitud</h3>
+                            <p class="cs-content">
+                                La solicitud es el mensaje que el cliente envía al servidor para pedir información o realizar una acción, como cargar una página o enviar un formulario.
+                            </p>
+                        </div>
+                        <div class="cs-content-conter">
+                            <h3 class="cs-subtitle">Respuesta</h3>
+                            <p class="cs-content">
+                                La respuesta es la información que el servidor devuelve al cliente después de procesar una solicitud, como una página web, datos o un mensaje de confirmación.
+                            </p>
+                        </div>
+                        <ul class="cs-section-list">
+                            <h3 class="list-title">Ventajas de esta Arquitectura</h3>
+                            <li>Permite centralizar la gestión de datos en el servidor</li>
+                            <li>Facilita el mantenimiento y las actualizaciones</li>
+                            <li>Mejora la seguridad al controlar el acceso a la información</li>
+                            <li>Escalabilidad para soportar múltiples usuarios</li>
+                        </ul>
+                    </div>
+                    <div class="cs-img-conter">
+                        <img src="./../../src/arquitetura-c-s.png" 
+                        alt="Arquitectura Cliente-Servidor"
+                        title="Arquitectura Cliente-Servidor">
+                    </div>
+                </div>
+            </section>
+            <section class="fs-section" id="full-stack">
+                <div class="fs-section-conter">
+                    <h2 class="fs-title">¿Qué es Desarrollo Full Stack?</h2>
+                    <p class="fs-content">
+                        El desarrollo Full Stack se refiere a la capacidad de trabajar tanto en el frontend como en el backend de una aplicación web. Un desarrollador Full Stack puede encargarse de la interfaz de usuario, la lógica del servidor y la gestión de bases de datos, creando soluciones completas de principio a fin.
+                    </p>
+                    <div class="article-conter">
+                        <article class="frontend-articule">
+                            <h3 class="articule-title">Frontend</h3>
+                            <p class="articule-content">
+                                El frontend es la parte visible de una aplicación web con la que interactúa el usuario. Se encarga del diseño, la estructura y la experiencia visual, incluye tecnologías como HTML, CSS y JavaScript, y se enfoca en crear interfaces atractivas, accesibles y funcionales.
+                            </p>
+                            <a href="https://developer.mozilla.org/es/docs/Learn/Front-end_web_developer" target="_blank">Saber más</a>
+                        </article>
+                    </div>
+                    <div class="article-conter">
+                        <article class="backend-articule">
+                            <h3 class="articule-title">Backend</h3>
+                            <p class="articule-content">
+                                El backend es la parte del servidor que se encarga de procesar la lógica de la aplicación y manejar las solicitudes del cliente, utiliza lenguajes como Node.js, Python, Java o PHP para gestionar datos, autenticación y operaciones internas.
+                            </p>
+                            <a href="https://developer.mozilla.org/es/docs/Learn/Server-side/First_steps/Introduction" target="_blank">Saber más</a>
+                        </article>
+                    </div>
+                    <div class="article-conter">
+                        <article class="bd-articule">
+                            <h3 class="articule-title">Base de Datos</h3>
+                            <p class="articule-content">
+                                La base de datos es donde se almacena y organiza la información de la aplicación, permite guardar, consultar y modificar datos utilizando sistemas como MySQL, PostgreSQL o MongoDB.
+                            </p>
+                            <a href="https://www.ibm.com/es-es/topics/databases" target="_blank">Saber más</a>
+                        </article>
+                    </div>
+                </div>    
+            </section>
+            <section class="tech-section" id="tecnologias">
+                    <div class="tech-section-conter">
+                    <h2 class="tech-title"></h2>
+                    <div class="tect-table-conter">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Capa</th>
+                                    <th>Tecnologías</th>
+                                    <th>Rol</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Frontend</td>
+                                    <td>HTML, CSS, JavaScript, React</td>
+                                    <td>Interfaz de usuario</td>
+                                </tr>
+                                <tr>
+                                    <td>Backend</td>
+                                    <td>Node.js, Python, Java, PHP</td>
+                                    <td>Lógica de negocio</td>
+                                </tr>
+                                <tr>
+                                    <td>Base de Datos</td>
+                                    <td>MySQL, PostgreSQL, MongoDB</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="aside-conter">
+                    <div class="aside-content-conter">
+                        <h2 class="aside-subtitle">Dato curioso</h2>
+                        <p class="aside-content">
+                            El primer sitio web de la historia fue creado por Tim Berners-Lee en 1991 y aún puede consultarse hoy en día.
+                        </p>
+                    </div>
+                    <div class="aside-content-conter">
+                        <h2 class="aside-subtitle">Frase</h2>
+                        <p class="aside-content">
+                            "La web no solo conecta máquinas, conecta personas."
+                        </p>
+                    </div>
+                    <div class="aside-content-conter">
+                        <h2 class="aside-subtitle">Recomendación</h2>
+                        <p class="aside-content">
+                            Para empezar en desarrollo Full Stack, es recomendable dominar primero HTML, CSS y JavaScript antes de avanzar al backend.
+                        </p>
+                    </div>
+                </div>
+            </aside>
+        </main>
+        <footer class="footer">
+            <div class="footer-conter">
+                <p>2026</p>
+                <p>Contenido educativo - Desarrollo Full Stack</p>
+                <p>Enlaces: Contacto | Sobre este sitio | Recursos adicionales</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
